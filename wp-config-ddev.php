@@ -38,4 +38,9 @@ if ( getenv( 'IS_DDEV_PROJECT' ) == 'true' ) {
 		$table_prefix = 'wp_';
 		// phpcs:enable
 	}
+
+	define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
+
 }
